@@ -7,9 +7,11 @@ Created on 16 Nov 2015
 import os
 import sys
 import PyPDF2
+from utility import writeResults
+from utility import getINVInfo
 
 currentPath = os.getcwd()
-'''pdfFilePath = str(currentPath)+'//COSMEDInvoiceINV15-00756.PDF'''
+# pdfFilePath = str(currentPath)+'//COSMEDInvoiceINV16-01066.PDF'
 pdfFilePath = str(sys.argv[1])
 txtFilePath = str(currentPath) + '//utility.txt'
 resultFilePath = str(currentPath) + '//results.txt'
@@ -39,21 +41,21 @@ def getCosmedINVdata(pdfFilePath):
         indexList = []
         for line in txtFile:
             pdfLine.append(line)
-        if page == 0:
-            '''get the invoice date from the fist page just after the cosmed website'''
-            i=0
-            for i in range(0,len(pdfLine)):
-                if 'www.cosmed.com' in pdfLine[i]:
-                    date=pdfLine[i+1]
-                if 'Dated:' in pdfLine[i]:
-                    invNumber = pdfLine[i+1]
-                i=i+1    
+        'get INV date'
+        date = getINVInfo.getDate()
+        'get INV number'
+        invNumber = getINVInfo.getInvNumber()
         i=0
         for i in range(0,len(pdfLine)):
             '''find the part number which can be A-.... or C0....'''
             if 'A-' == pdfLine[i][0:2] or 'C0' == pdfLine[i][0:2]:
-                indexList.append(i)
-                i=i+1
+                if 'NIP' == str(pdfLine[i-1][0:3]):
+                    '''avoid to add not inventory parts'''
+                    i=i+1
+                else:
+                    indexList.append(i)
+                    i=i+1
+                
             else:
                 i=i+1
         
@@ -126,7 +128,7 @@ def getCosmedINVdata(pdfFilePath):
     txtFile.close()
     os.remove(txtFilePath)
     pdfFileObj.close()
-    writeResults(date, numItems, invNumber, pnList, descrList, qtyList,snList)
+    writeResults.populateTxt(date, numItems, invNumber, pnList, descrList, qtyList,snList)
 
 
 def cleanUpSN(snList):
@@ -140,44 +142,6 @@ def cleanUpSN(snList):
                 snList[i] = snList[i][-10:]
                 i=i+1
     return snList
-
-def writeResults(date, numItems, invNumber, pnList, descrList, qtyList,snList):
-    '''write a txt file to get the data in LabView easily'''
-    txtFile = open(resultFilePath, 'w')
-    index=0
-    indexSn=0
-    numRows = 0
-    txtFile.write(date)
-    txtFile.write(str(invNumber))
-    for index in range(0,numItems):
-        if int(qtyList[index])>1 and snList[indexSn]!='none':
-            j=0
-            for j in range(0,int(qtyList[index])):
-                if j==0:
-                    txtFile.write(pnList[index] +'//'+ snList[indexSn]+'//'+ descrList[index]+'//'+ qtyList[index]+'\n')
-                    numRows=numRows+1
-                else:
-                    txtFile.write(pnList[index] +'//'+ snList[indexSn]+'//'+ descrList[index]+'// \n')
-                    numRows=numRows+1                    
-                j=j+1
-                indexSn = indexSn +1
-            index=index +1
-        else:
-            txtFile.write(pnList[index] +'//'+ snList[indexSn]+'//'+ descrList[index]+'//'+ qtyList[index]+'\n')
-            numRows=numRows+1
-            index=index+1
-            indexSn= indexSn + 1
-    
-    txtFile = open(resultFilePath, 'r')
-    lines = txtFile.readlines()
-    txtFile.close()
-    os.remove(resultFilePath)
-    txtFile = open(resultFilePath, 'w')
-    txtFile.write(str(numRows+2)+'\n')
-    for line in lines:
-        txtFile.write(line)
-    
-    txtFile.close()
 
 getCosmedINVdata(pdfFilePath)
     
