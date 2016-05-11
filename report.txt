@@ -1,10 +1,5 @@
-#### Starting Mass Compile: Tue, 28 Jul 2015 2:58:46 PM
-  Directory: "D:\CosmedAPTools"
-Skipping project already in memory: D:\CosmedAPTools\CosmedAPTools.lvproj
-  ### Bad VI:    "checkIN.lvclass:setDetails.vi"	Path="D:\CosmedAPTools\APP\checkIN_class\setDetails.vi"
-#### Finished Mass Compile: Tue, 28 Jul 2015 2:58:51 PM
-#### Starting Mass Compile: Mon, 8 Feb 2016 2:27:34 PM
-  Directory: "D:\CosmedAPTools"
-Skipping project already in memory: D:\CosmedAPTools\CosmedAPTools.lvproj
-  ### Bad VI:    "python.lvclass:getColumn.vi"	Path="D:\CosmedAPTools\APP\python_class\getColumn.vi"
-#### Finished Mass Compile: Mon, 8 Feb 2016 2:30:38 PM
+#### Starting Mass Compile: Wed, 11 May 2016 3:39:51 PM
+  Directory: "D:\CosmedAPTool"
+Skipping project already in memory: D:\CosmedAPTool\CosmedAPTools.lvproj
+  ### Bad VI:    "python.lvclass:getColumn.vi"	Path="D:\CosmedAPTool\APP\python_class\getColumn.vi"
+#### Finished Mass Compile: Wed, 11 May 2016 3:41:04 PM

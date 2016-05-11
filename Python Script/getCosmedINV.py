@@ -27,7 +27,7 @@ def getCosmedINVdata(pdfFilePath):
     qtyList = []
     snList = []
     numItems = 0
-    data = ""
+    date = ""
     invNumber = ""
     
     page=0

@@ -36,6 +36,17 @@
 			<Item Name="Project Panels.lvclass" Type="LVClass" URL="../GUI/Project Panels_class/Project Panels.lvclass"/>
 		</Item>
 		<Item Name="Python Script" Type="Folder">
+			<Item Name="utility" Type="Folder">
+				<Item Name="__pycache__" Type="Folder">
+					<Item Name="__init__.cpython-34.pyc" Type="Document" URL="../Python Script/utility/__pycache__/__init__.cpython-34.pyc"/>
+					<Item Name="getINVInfo.cpython-34.pyc" Type="Document" URL="../Python Script/utility/__pycache__/getINVInfo.cpython-34.pyc"/>
+					<Item Name="writeResults.cpython-34.pyc" Type="Document" URL="../Python Script/utility/__pycache__/writeResults.cpython-34.pyc"/>
+				</Item>
+				<Item Name="__init__.py" Type="Document" URL="../Python Script/utility/__init__.py"/>
+				<Item Name="getINVInfo.py" Type="Document" URL="../Python Script/utility/getINVInfo.py"/>
+				<Item Name="test.py" Type="Document" URL="../Python Script/utility/test.py"/>
+				<Item Name="writeResults.py" Type="Document" URL="../Python Script/utility/writeResults.py"/>
+			</Item>
 			<Item Name="getCosmedINV.py" Type="Document" URL="../Python Script/getCosmedINV.py"/>
 			<Item Name="read.py" Type="Document" URL="../Python Script/read.py"/>
 		</Item>
@@ -138,19 +149,21 @@
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../LabView builds/ConfigFile</Property>
+				<Property Name="Destination[1].path" Type="Path">../LabView builds/ConfigFiles</Property>
 				<Property Name="Destination[2].destName" Type="Str">Python Script</Property>
 				<Property Name="Destination[2].path" Type="Path">../LabView builds/Python Script</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[3].destName" Type="Str">ConfigFiles</Property>
 				<Property Name="Destination[3].path" Type="Path">../LabView builds/ConfigFiles</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9AFD2238-958A-43DB-9F5D-847AA2341DE6}</Property>
+				<Property Name="Destination[4].destName" Type="Str">utility</Property>
+				<Property Name="Destination[4].path" Type="Path">../LabView builds/Python Script/utility</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Source[0].itemID" Type="Str">{091313E0-A6FB-4EDC-9E0F-66A97983A969}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyPassword" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
@@ -165,7 +178,12 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Python Script</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Python Script/utility</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">Cosmed AP</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">CosmedAPTools
 - Cosmed INVOICE in PDF reading function added</Property>
@@ -236,7 +254,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">InstallCosmedAPTools</Property>
 				<Property Name="INST_defaultDir" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
 				<Property Name="INST_productName" Type="Str">CosmedAPTools</Property>
-				<Property Name="INST_productVersion" Type="Str">2.1.9</Property>
+				<Property Name="INST_productVersion" Type="Str">2.1.12</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">14018013</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cosmed</Property>
