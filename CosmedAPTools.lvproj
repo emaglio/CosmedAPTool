@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
+<Project Type="Project" LVVersion="15008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -62,6 +62,20 @@
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="test2.vi" Type="VI" URL="../test2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="CloseXL_App.vi" Type="VI" URL="/&lt;userlib&gt;/Read_Excel_Values.llb/CloseXL_App.vi"/>
+				<Item Name="CloseXL_Workbook.vi" Type="VI" URL="/&lt;userlib&gt;/Read_Excel_Values.llb/CloseXL_Workbook.vi"/>
+				<Item Name="CloseXL_Worksheet.vi" Type="VI" URL="/&lt;userlib&gt;/Read_Excel_Values.llb/CloseXL_Worksheet.vi"/>
+				<Item Name="GetXL_CellValue_Dbl.vi" Type="VI" URL="/&lt;userlib&gt;/Read_Excel_Values.llb/GetXL_CellValue_Dbl.vi"/>
+				<Item Name="GetXL_CellValue_String.vi" Type="VI" URL="/&lt;userlib&gt;/Read_Excel_Values.llb/GetXL_CellValue_String.vi"/>
+				<Item Name="GetXL_CellValues.vi" Type="VI" URL="/&lt;userlib&gt;/Read_Excel_Values.llb/GetXL_CellValues.vi"/>
+				<Item Name="GetXL_CellValues_2D_Dbl.vi" Type="VI" URL="/&lt;userlib&gt;/Read_Excel_Values.llb/GetXL_CellValues_2D_Dbl.vi"/>
+				<Item Name="GetXL_CellValues_2D_String.vi" Type="VI" URL="/&lt;userlib&gt;/Read_Excel_Values.llb/GetXL_CellValues_2D_String.vi"/>
+				<Item Name="OpenXL_App.vi" Type="VI" URL="/&lt;userlib&gt;/Read_Excel_Values.llb/OpenXL_App.vi"/>
+				<Item Name="OpenXL_Workbook.vi" Type="VI" URL="/&lt;userlib&gt;/Read_Excel_Values.llb/OpenXL_Workbook.vi"/>
+				<Item Name="OpenXL_WorkSheet.vi" Type="VI" URL="/&lt;userlib&gt;/Read_Excel_Values.llb/OpenXL_WorkSheet.vi"/>
+				<Item Name="Row Col To Range Format.vi" Type="VI" URL="/&lt;userlib&gt;/Read_Excel_Values.llb/Row Col To Range Format.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -69,9 +83,6 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="CloseXL_App.vi" Type="VI" URL="/&lt;vilib&gt;/Read_Excel_Values.llb/CloseXL_App.vi"/>
-				<Item Name="CloseXL_Workbook.vi" Type="VI" URL="/&lt;vilib&gt;/Read_Excel_Values.llb/CloseXL_Workbook.vi"/>
-				<Item Name="CloseXL_Worksheet.vi" Type="VI" URL="/&lt;vilib&gt;/Read_Excel_Values.llb/CloseXL_Worksheet.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
@@ -92,11 +103,6 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="GetXL_CellValue_Dbl.vi" Type="VI" URL="/&lt;vilib&gt;/Read_Excel_Values.llb/GetXL_CellValue_Dbl.vi"/>
-				<Item Name="GetXL_CellValue_String.vi" Type="VI" URL="/&lt;vilib&gt;/Read_Excel_Values.llb/GetXL_CellValue_String.vi"/>
-				<Item Name="GetXL_CellValues.vi" Type="VI" URL="/&lt;vilib&gt;/Read_Excel_Values.llb/GetXL_CellValues.vi"/>
-				<Item Name="GetXL_CellValues_2D_Dbl.vi" Type="VI" URL="/&lt;vilib&gt;/Read_Excel_Values.llb/GetXL_CellValues_2D_Dbl.vi"/>
-				<Item Name="GetXL_CellValues_2D_String.vi" Type="VI" URL="/&lt;vilib&gt;/Read_Excel_Values.llb/GetXL_CellValues_2D_String.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -108,12 +114,8 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="OpenXL_App.vi" Type="VI" URL="/&lt;vilib&gt;/Read_Excel_Values.llb/OpenXL_App.vi"/>
-				<Item Name="OpenXL_Workbook.vi" Type="VI" URL="/&lt;vilib&gt;/Read_Excel_Values.llb/OpenXL_Workbook.vi"/>
-				<Item Name="OpenXL_WorkSheet.vi" Type="VI" URL="/&lt;vilib&gt;/Read_Excel_Values.llb/OpenXL_WorkSheet.vi"/>
 				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
-				<Item Name="Row Col To Range Format.vi" Type="VI" URL="/&lt;vilib&gt;/Read_Excel_Values.llb/Row Col To Range Format.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
