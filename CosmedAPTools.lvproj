@@ -256,9 +256,9 @@
 				<Property Name="INST_buildSpecName" Type="Str">InstallCosmedAPTools</Property>
 				<Property Name="INST_defaultDir" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
 				<Property Name="INST_productName" Type="Str">CosmedAPTools</Property>
-				<Property Name="INST_productVersion" Type="Str">2.1.12</Property>
+				<Property Name="INST_productVersion" Type="Str">2.1.13</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">14018013</Property>
+				<Property Name="InstSpecVersion" Type="Str">15018007</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cosmed</Property>
 				<Property Name="MSI_arpURL" Type="Str">http://www.cosmed.com/</Property>
 				<Property Name="MSI_distID" Type="Str">{B5E73361-8784-424B-B837-1F83EEA3FBBD}</Property>
