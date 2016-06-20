@@ -11,7 +11,7 @@ from utility import writeResults
 from utility import getINVInfo
 
 currentPath = os.getcwd()
-# pdfFilePath = str(currentPath)+'//COSMEDInvoiceINV16-01066.PDF'
+# pdfFilePath = str(currentPath)+'//COSMEDInvoiceINV16-01824.PDF'
 pdfFilePath = str(sys.argv[1])
 txtFilePath = str(currentPath) + '//utility.txt'
 resultFilePath = str(currentPath) + '//results.txt'
@@ -81,7 +81,7 @@ def getCosmedINVdata(pdfFilePath):
                     appended'''                
                     sn=[]
                     while(index < len(pdfLine) and found != True):
-                        if 'Serial' in pdfLine[index] or 's/n' in pdfLine[index]:
+                        if 'Serial' in pdfLine[index] or 's/n' in pdfLine[index] or 'SN' in pdfLine[index]:
                             j=0
                             for j in range(0,qty):
                                 sn.append(pdfLine[index])
@@ -96,7 +96,7 @@ def getCosmedINVdata(pdfFilePath):
                 else:
                     sn=[]
                     while(index < indexList[i+1] ): 
-                        if 'Serial' in pdfLine[index] or 's/n' in pdfLine[index]:
+                        if 'Serial' in pdfLine[index] or 's/n' in pdfLine[index] or 'SN' in pdfLine[index]:
                             j=0
                             for j in range(0,qty):
                                 sn.append(pdfLine[index])
@@ -112,7 +112,7 @@ def getCosmedINVdata(pdfFilePath):
             looking for just the serial numbers'''
             index=0
             while(index < len(pdfLine) and found != True):
-                if 'Serial' in pdfLine[index] or 's/n' in pdfLine[index]:
+                if 'Serial' in pdfLine[index] or 's/n' in pdfLine[index] or 'SN' in pdfLine[index]:
                     j=0
                     for j in range(0,qty):
                         sn.append(pdfLine[index])
@@ -134,13 +134,20 @@ def getCosmedINVdata(pdfFilePath):
 def cleanUpSN(snList):
     i=0
     for i in range(0,len(snList)):
-        if(not "None" in snList[i]):
-            if("Serial" in snList[i]):
-                snList[i] = snList[i][10:len(snList[i])]
-                i=i+1
-            else:
-                snList[i] = snList[i][-10:]
-                i=i+1
+        if(not "none" in snList[i]):
+            sn = snList[i]
+            j=0
+            for j in range(0,len(sn)):
+                if (not sn[j].isdigit()):
+                    offset = j
+                else:
+                    if (offset != 0):
+                        break
+                j=j+1
+            snList[i]=snList[i][offset+1:len(snList[i])]
+    for i in range(0,len(snList)):
+        if len(snList[i])>20:
+            snList[i]="none"
     return snList
 
 getCosmedINVdata(pdfFilePath)

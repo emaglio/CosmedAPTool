@@ -1,20 +1,7 @@
-19
-20/03/2015
-INV15-00756
-A-661-230-023//2014A083//BOD POD Gold Standard//2
-A-661-230-023//2014A084//BOD POD Gold Standard// 
-A-666-550-005//COS30000VA14-0122//Treadmill COSMED T150 DE//2
-A-666-550-005//COS30000VA14-0123//Treadmill COSMED T150 DE// 
-A-666-950-024//none//Arch, safety harness w/emergency switch for T150//2
-A-666-955-020//none//Long handrails for T150-T170 (not LC line)//2
-C09073-02-99//2015020765//Quark CPET (Stationary CPET)//1
-C09074-01-99//2015010431//Quark RMR, Indirect calorimetry//1
-A-182-300-004//none//Antibacterial filters (50 pcs)//50
-C02900-01-04//2015020614//Cart, Medical grade (230 Vac) w/o Arm - 3 cylinders holder//1
-C03550-01-04//2015020337//Cart, Medical grade (230 Vac) - 1 cylinder holder//1
-C09066-01-99//2014121529//Fitmate Weight Management//1
-C00600-01-11//557-46075//Calibration syringe 3 liters//5
-C00600-01-11//557-46076//Calibration syringe 3 liters// 
-C00600-01-11//557-46077//Calibration syringe 3 liters// 
-C00600-01-11//557-46078//Calibration syringe 3 liters// 
-C00600-01-11//557-46217//Calibration syringe 3 liters// 
+6
+15/06/2016
+INV16-01824
+C04391-01-11//01.31253288//O2 GFC sensor replacement kit K5 s/n 2015060033//1
+C02364-01-05//15038//Digital Flowmeter for Turbine T2 (Pony FX)//1
+C02560-01-04//11178//Flowmeter VO2max ID28, w/sampling line (F.PRO/MED)//1
+C02420-01-08//none//Flowmeter PNT (ROCC only)//1
