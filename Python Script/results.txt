@@ -1,11 +1,88 @@
-10
-29/04/2016
-INV16-01309
-C03400-01-04//11009//Flowmeter VO2max ID28, w/sampling line (QPFT/CPET)//6
-C03400-01-04//11024//Flowmeter VO2max ID28, w/sampling line (QPFT/CPET)// 
-C03400-01-04//11014//Flowmeter VO2max ID28, w/sampling line (QPFT/CPET)// 
-C03400-01-04//11084//Flowmeter VO2max ID28, w/sampling line (QPFT/CPET)// 
-C03400-01-04//11083//Flowmeter VO2max ID28, w/sampling line (QPFT/CPET)// 
-C03400-01-04//11042//Flowmeter VO2max ID28, w/sampling line (QPFT/CPET)// 
-C02560-01-04//11043//Flowmeter VO2max ID28, w/sampling line (F.PRO/MED)//2
-C02560-01-04//11007//Flowmeter VO2max ID28, w/sampling line (F.PRO/MED)// 
+87
+27/05/2016
+INV16-01657
+A-182-300-006//none//HMEF Heat Moisture Exchanger w/ Antibacterial Filter (50 pcs.)//20
+C09061-01-99//2016051428//MicroQuark USB (PC-based Spirometer)//60
+C09061-01-99//2016051429//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051430//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051431//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051432//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051433//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051434//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051435//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051436//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051437//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051438//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051439//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051440//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051441//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051442//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051443//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051444//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051445//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051446//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051447//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051448//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051449//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051450//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051451//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051452//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051453//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051454//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051455//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051456//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051457//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051458//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051459//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051460//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051461//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051462//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051465//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051466//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051467//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051468//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051469//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051470//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051471//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051472//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051473//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051474//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051475//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051476//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051477//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051478//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051479//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051480//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051481//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051482//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051483//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051484//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051485//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051486//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051487//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051488//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051463//MicroQuark USB (PC-based Spirometer)// 
+C09062-01-99//2016042252//Pony FX (Desktop Spirometer)//20
+C09062-01-99//2016042253//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042254//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042255//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042256//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042257//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042258//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042259//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042260//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042261//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042262//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042263//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042264//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042265//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042266//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042267//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042268//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042269//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042270//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016042271//Pony FX (Desktop Spirometer)// 
+C09074-01-99//2016041073//Quark RMR, Indirect calorimetry//2
+C09074-01-99//2016041074//Quark RMR, Indirect calorimetry// 
+C04436-01-11//none//QRMR Module, ICU/ Vent Patients w/ FlowRee//2
+C02580-01-06//none//Flowsafe disposable pneumotach (50 pcs.)//5
