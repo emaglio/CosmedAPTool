@@ -13,6 +13,7 @@ resultFilePath = str(currentPath) + '//results.txt'
 
 def populateTxt(date, numItems, invNumber, pnList, descrList, qtyList,snList):
     '''write a txt file to get the data in LabView easily'''
+    test = len(snList)
     txtFile = open(resultFilePath, 'w')
     index=0
     indexSn=0

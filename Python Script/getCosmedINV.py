@@ -11,7 +11,7 @@ from utility import writeResults
 from utility import getINVInfo
 
 currentPath = os.getcwd()
-# pdfFilePath = str(currentPath)+'//COSMEDInvoiceINV16-01824.PDF'
+# pdfFilePath = str(currentPath)+'//COSMEDInvoiceINV16-01309.PDF'
 pdfFilePath = str(sys.argv[1])
 txtFilePath = str(currentPath) + '//utility.txt'
 resultFilePath = str(currentPath) + '//results.txt'
@@ -73,22 +73,17 @@ def getCosmedINVdata(pdfFilePath):
                 qty = int(pdfLine[index][0:(len(pdfLine[index])-1)])
                 qtyList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
                 index=index+1
-                found=False
                 if i == len(indexList)-1:
                     '''looking for serial number
                     in case the part number has no 
                     serial number the string none is
                     appended'''                
                     sn=[]
-                    while(index < len(pdfLine) and found != True):
+                    while(index < len(pdfLine)):
                         if 'Serial' in pdfLine[index] or 's/n' in pdfLine[index] or 'SN' in pdfLine[index]:
-                            j=0
-                            for j in range(0,qty):
-                                sn.append(pdfLine[index])
-                                snList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
-                                index=index+1
-                                j=j+1
-                            found=True
+                            sn.append(pdfLine[index])
+                            snList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
+                            index=index+1
                         else:
                             index=index+1
                     if(len(sn)==0 and page == pdfReader.numPages-1):
@@ -111,19 +106,14 @@ def getCosmedINVdata(pdfFilePath):
             '''this is executed when the indexList is null
             looking for just the serial numbers'''
             index=0
-            while(index < len(pdfLine) and found != True):
+            while(index < len(pdfLine)):
                 if 'Serial' in pdfLine[index] or 's/n' in pdfLine[index] or 'SN' in pdfLine[index]:
-                    j=0
-                    for j in range(0,qty):
-                        sn.append(pdfLine[index])
-                        snList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
-                        index=index+1
-                    found=True
+                    sn.append(pdfLine[index])
+                    snList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
+                    index=index+1
                 else:
                     index=index+1
-                if(len(sn)==0 and page == pdfReader.numPages-1):
-                    snList.append('none')
-    
+                    
     snList = cleanUpSN(snList)    
     txtFile.close()
     os.remove(txtFilePath)
@@ -146,7 +136,7 @@ def cleanUpSN(snList):
                 j=j+1
             snList[i]=snList[i][offset+1:len(snList[i])]
     for i in range(0,len(snList)):
-        if len(snList[i])>20:
+        if len(snList[i])>20 or len(snList[i])<2:
             snList[i]="none"
     return snList
 
