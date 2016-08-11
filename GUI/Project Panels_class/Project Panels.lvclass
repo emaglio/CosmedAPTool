@@ -166,11 +166,11 @@
 	<Item Name="newDevice.vi" Type="VI" URL="../newDevice.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'J!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!)1:T98:F:$]!!$"!=!!?!!!9&amp;F"S&lt;WJF9X1A5'&amp;O:7RT,GRW9WRB=X-!!!VS:7:F=G6O9W5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!=Q$R!!!!!!!!!!);2'6W;7.F=S"$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-/:'6W;7.F6(FQ:3ZD&gt;'Q!15!7!!A#;T5%;T2C-A&gt;G;82N982F"'.Q:81$=GVS#G*P:(F#&lt;XB1:H1#9H!#=(!!#U2F&gt;GFD:3"5?8"F!$"!=!!?!!!9&amp;F"S&lt;WJF9X1A5'&amp;O:7RT,GRW9WRB=X-!!!RS:7:F=G6O9W5A;7Y!!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!I!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">33088</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073774912</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821074</Property>
 	</Item>
 	<Item Name="editDevice.vi" Type="VI" URL="../editDevice.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'^!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!)1:T98:F:$]!!$"!=!!?!!!9&amp;F"S&lt;WJF9X1A5'&amp;O:7RT,GRW9WRB=X-!!!VS:7:F=G6O9W5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%%!Q`````Q:4,UYA35Y!!(=!]1!!!!!!!!!#'E2F&gt;GFD:8-A1W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T$G2F&gt;GFD:62Z='5O9X2M!%6!&amp;A!)!GMV"'MU9D)(:GFU&lt;7&amp;U:12D='6U!X*N=AJC&lt;W2Z1G^Y5':U!G*Q!H"Q!!Z%:8:J9W5A6(FQ:3"*&lt;A!!-%"Q!"Y!!"A75(*P;G6D&gt;#"197ZF&lt;(-O&lt;(:D&lt;'&amp;T=Q!!$(*F:G6S:7ZD:3"J&lt;A!!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!#!!*!!I$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!%+!!!!#A!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
