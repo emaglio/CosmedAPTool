@@ -147,8 +147,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{77584390-5D3C-4E10-931E-77222B3CBD65}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">5</Property>
+				<Property Name="Bld_version.patch" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">CosmedAPTools.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../LabView builds/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -163,7 +164,7 @@
 				<Property Name="Destination[4].destName" Type="Str">utility</Property>
 				<Property Name="Destination[4].path" Type="Path">../LabView builds/Python Script/utility</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DA6EE030-16DC-4528-9828-B4BB8123E627}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8210468D-61AB-461D-B16A-21C41D95E275}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
@@ -194,7 +195,8 @@
 - Cosmed INVOICE in PDF reading function added
 - Updated the script in order to read the new COSMED bills
 - Changed the flow for the inventory in order to have all the data updated in any state of the IN-OUT process
-- Added right click feature in AddCheckIN e AddCheckOUT // upload from file pressing a button in the Item panel</Property>
+- Added right click feature in AddCheckIN e AddCheckOUT // upload from file pressing a button in the Item panel
+- The new product added will be positioned in the right place in base on the Serial Number</Property>
 				<Property Name="TgtF_internalName" Type="Str">CosmedAPTools</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 Cosmed</Property>
 				<Property Name="TgtF_productName" Type="Str">CosmedAPTools</Property>
@@ -262,7 +264,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">InstallCosmedAPTools</Property>
 				<Property Name="INST_defaultDir" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
 				<Property Name="INST_productName" Type="Str">CosmedAPTools</Property>
-				<Property Name="INST_productVersion" Type="Str">2.1.16</Property>
+				<Property Name="INST_productVersion" Type="Str">2.1.17</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15018007</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cosmed</Property>
