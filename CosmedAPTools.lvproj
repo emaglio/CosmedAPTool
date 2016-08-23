@@ -140,6 +140,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{476D9C74-8593-4B8C-8353-A4038D29CE8F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{A4B5B6CB-2621-41CB-AFD4-F24FAEF896EC}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3AD4E0D0-B2EE-49D8-B807-3B0B001D0D5A}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">CosmedAPTools</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -149,7 +150,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{77584390-5D3C-4E10-931E-77222B3CBD65}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">6</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CosmedAPTools.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../LabView builds/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -164,7 +167,7 @@
 				<Property Name="Destination[4].destName" Type="Str">utility</Property>
 				<Property Name="Destination[4].path" Type="Path">../LabView builds/Python Script/utility</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{83FB3476-D9CB-4E47-9917-836C8435EA42}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0D7B3372-CC5D-437F-88C8-642A702B5375}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
@@ -196,7 +199,8 @@
 - Updated the script in order to read the new COSMED bills
 - Changed the flow for the inventory in order to have all the data updated in any state of the IN-OUT process
 - Added right click feature in AddCheckIN e AddCheckOUT // upload from file pressing a button in the Item panel
-- The new product added will be positioned in the right place in base on the Serial Number</Property>
+- The new product added will be positioned in the right place in base on the Serial Number
+- Save data using Range and 2D array (quicker)</Property>
 				<Property Name="TgtF_internalName" Type="Str">CosmedAPTools</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 Cosmed</Property>
 				<Property Name="TgtF_productName" Type="Str">CosmedAPTools</Property>
@@ -264,7 +268,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">InstallCosmedAPTools</Property>
 				<Property Name="INST_defaultDir" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
 				<Property Name="INST_productName" Type="Str">CosmedAPTools</Property>
-				<Property Name="INST_productVersion" Type="Str">2.1.18</Property>
+				<Property Name="INST_productVersion" Type="Str">2.1.19</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15018007</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cosmed</Property>
