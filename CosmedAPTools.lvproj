@@ -150,7 +150,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{77584390-5D3C-4E10-931E-77222B3CBD65}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">6</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CosmedAPTools.exe</Property>
@@ -268,7 +268,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">InstallCosmedAPTools</Property>
 				<Property Name="INST_defaultDir" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
 				<Property Name="INST_productName" Type="Str">CosmedAPTools</Property>
-				<Property Name="INST_productVersion" Type="Str">2.1.20</Property>
+				<Property Name="INST_productVersion" Type="Str">2.1.21</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15018007</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cosmed</Property>
