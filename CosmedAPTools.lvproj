@@ -61,6 +61,7 @@
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="test2.vi" Type="VI" URL="../test2.vi"/>
+		<Item Name="TEST3.vi" Type="VI" URL="../TEST3.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="CloseXL_App.vi" Type="VI" URL="/&lt;userlib&gt;/Read_Excel_Values.llb/CloseXL_App.vi"/>
@@ -130,6 +131,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Print worksheet.vi" Type="VI" URL="/C/Users/emanu/Downloads/Print worksheet.vi"/>
 			<Item Name="USER32.DLL" Type="Document" URL="USER32.DLL">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
