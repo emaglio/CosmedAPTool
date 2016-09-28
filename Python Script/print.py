@@ -5,17 +5,20 @@ Created on 27 Sep 2016
 '''
 
 import win32com.client
-import os.path
+import os
 
-c = win32com.client.Dispatch("ExcelConverter.ExcelConverterX")
-
-src="D:\CosmedAPTool\ConfigFiles\\tsr_repair.xlsx";
-dest="D:\CosmedAPTool\ConfigFiles\\test.pdf";
-
-c.convert(src, dest, "-c PDF -log c:\\test\\Excel.log");
-
-if not os.path.exists(file_path):
-  print(c.ErrorMessage)
-
-doc.build (story)
-win32api.ShellExecute (0, "print", pdf_file_name, None, ".", 0)
+def printThis(pathFile, pathPDF):
+    '''remove file exist otherwise I have an exception from the ExportAsFixedFormat ''' 
+    if os.path.isfile(pathPDF):
+        os.remove(pathPDF)
+        
+    
+    o = win32com.client.Dispatch("Excel.Application")
+    o.Visible = False
+    
+    wb = o.Workbooks.Open(pathFile)
+    wb.ActiveSheet.ExportAsFixedFormat(0,pathPDF)
+    
+    wb.Close(True)
+    
+printThis("D:/CosmedAPTool/ConfigFiles/tsr_agreement.xlsx","D:/CosmedAPTool/ConfigFiles/test.pdf")
