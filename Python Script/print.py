@@ -6,7 +6,14 @@ Created on 27 Sep 2016
 
 import win32com.client
 import os
+import sys
 
+pathFile = str(sys.argv[1])
+pathPDF = str(sys.argv[2])
+'''
+pathFile = "D:/CosmedAPTool/ConfigFiles/tsr_agreement.xlsx"
+pathPDF = "D:/CosmedAPTool/ConfigFiles/test.pdf"
+'''
 def printThis(pathFile, pathPDF):
     '''remove file exist otherwise I have an exception from the ExportAsFixedFormat ''' 
     if os.path.isfile(pathPDF):
@@ -21,4 +28,4 @@ def printThis(pathFile, pathPDF):
     
     wb.Close(True)
     
-printThis("D:/CosmedAPTool/ConfigFiles/tsr_agreement.xlsx","D:/CosmedAPTool/ConfigFiles/test.pdf")
+printThis(pathFile, pathPDF)

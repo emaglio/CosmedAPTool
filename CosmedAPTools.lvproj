@@ -48,6 +48,7 @@
 				<Item Name="writeResults.py" Type="Document" URL="../Python Script/utility/writeResults.py"/>
 			</Item>
 			<Item Name="getCosmedINV.py" Type="Document" URL="../Python Script/getCosmedINV.py"/>
+			<Item Name="print.py" Type="Document" URL="../Python Script/print.py"/>
 			<Item Name="read.py" Type="Document" URL="../Python Script/read.py"/>
 		</Item>
 		<Item Name="SYS" Type="Folder">
