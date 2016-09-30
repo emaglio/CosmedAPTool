@@ -26,6 +26,6 @@ def printThis(pathFile, pathPDF):
     wb = o.Workbooks.Open(pathFile)
     wb.ActiveSheet.ExportAsFixedFormat(0,pathPDF)
     
-    wb.Close(True)
+    wb.Quit()
     
 printThis(pathFile, pathPDF)
