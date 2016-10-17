@@ -50,6 +50,7 @@
 				<Item Name="test.py" Type="Document" URL="../Python Script/utility/test.py"/>
 				<Item Name="writeResults.py" Type="Document" URL="../Python Script/utility/writeResults.py"/>
 			</Item>
+			<Item Name="exeVersion.py" Type="Document" URL="../Python Script/exeVersion.py"/>
 			<Item Name="getCosmedINV.py" Type="Document" URL="../Python Script/getCosmedINV.py"/>
 			<Item Name="print.py" Type="Document" URL="../Python Script/print.py"/>
 			<Item Name="read.py" Type="Document" URL="../Python Script/read.py"/>
@@ -154,7 +155,6 @@
 				<Property Name="Bld_localDestDir" Type="Path">../LabView builds</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref"></Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{77584390-5D3C-4E10-931E-77222B3CBD65}</Property>
 				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">7</Property>
@@ -173,7 +173,7 @@
 				<Property Name="Destination[4].destName" Type="Str">utility</Property>
 				<Property Name="Destination[4].path" Type="Path">../LabView builds/Python Script/utility</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A6B9CAD4-805A-45A2-B838-A21C2448DA9B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2CFBAE28-645D-4451-8235-6418305201CE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
@@ -272,7 +272,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">InstallCosmedAPTools</Property>
 				<Property Name="INST_defaultDir" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
 				<Property Name="INST_productName" Type="Str">CosmedAPTools</Property>
-				<Property Name="INST_productVersion" Type="Str">2.1.28</Property>
+				<Property Name="INST_productVersion" Type="Str">2.1.29</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15018007</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cosmed</Property>
