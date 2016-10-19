@@ -53,6 +53,8 @@
 			<Item Name="exeVersion.py" Type="Document" URL="../Python Script/exeVersion.py"/>
 			<Item Name="getCosmedINV.py" Type="Document" URL="../Python Script/getCosmedINV.py"/>
 			<Item Name="print.py" Type="Document" URL="../Python Script/print.py"/>
+			<Item Name="pywin32-220.win-amd64-py3.4.exe" Type="Document" URL="../Python Script/pywin32-220.win-amd64-py3.4.exe"/>
+			<Item Name="pywin32-220.win32-py3.4.exe" Type="Document" URL="../Python Script/pywin32-220.win32-py3.4.exe"/>
 			<Item Name="read.py" Type="Document" URL="../Python Script/read.py"/>
 		</Item>
 		<Item Name="SYS" Type="Folder">
