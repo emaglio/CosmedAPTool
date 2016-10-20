@@ -39,6 +39,11 @@
 			<Item Name="Project Panels.lvclass" Type="LVClass" URL="../GUI/Project Panels_class/Project Panels.lvclass"/>
 		</Item>
 		<Item Name="Python Script" Type="Folder">
+			<Item Name="install" Type="Folder">
+				<Item Name="32bit-pywin32-py3.4.exe" Type="Document" URL="../Python Script/install/32bit-pywin32-py3.4.exe"/>
+				<Item Name="install_python.bat" Type="Document" URL="../Python Script/install/install_python.bat"/>
+				<Item Name="python-3.4.3-32bit.msi" Type="Document" URL="../Python Script/install/python-3.4.3-32bit.msi"/>
+			</Item>
 			<Item Name="utility" Type="Folder">
 				<Item Name="__pycache__" Type="Folder">
 					<Item Name="__init__.cpython-34.pyc" Type="Document" URL="../Python Script/utility/__pycache__/__init__.cpython-34.pyc"/>

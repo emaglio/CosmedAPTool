@@ -21,4 +21,6 @@ def exeVersion(path):
     
     return print(info)
 
+       
+
 exeVersion(path)
