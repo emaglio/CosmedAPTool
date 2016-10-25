@@ -68,6 +68,7 @@
 			<Item Name="Notification Controller.lvclass" Type="LVClass" URL="../SYS/Notification Controller_class/Notification Controller.lvclass"/>
 			<Item Name="PartsTracking Controller.lvclass" Type="LVClass" URL="../SYS/PartsTracking Controller_class/PartsTracking Controller.lvclass"/>
 		</Item>
+		<Item Name="checkPython.vi" Type="VI" URL="../Python Script/install/checkPython.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="test2.vi" Type="VI" URL="../test2.vi"/>
