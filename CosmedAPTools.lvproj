@@ -40,9 +40,15 @@
 		</Item>
 		<Item Name="Python Script" Type="Folder">
 			<Item Name="install" Type="Folder">
-				<Item Name="32bit-pywin32-py3.4.exe" Type="Document" URL="../Python Script/install/32bit-pywin32-py3.4.exe"/>
-				<Item Name="install_python.bat" Type="Document" URL="../Python Script/install/install_python.bat"/>
-				<Item Name="python-3.4.3-32bit.msi" Type="Document" URL="../Python Script/install/python-3.4.3-32bit.msi"/>
+				<Item Name="files" Type="Folder">
+					<Item Name="32bit-pywin32-py3.4.exe" Type="Document" URL="../Python Script/install/files/32bit-pywin32-py3.4.exe"/>
+					<Item Name="checkPython.vi" Type="VI" URL="../Python Script/install/files/checkPython.vi"/>
+					<Item Name="install_python.bat" Type="Document" URL="../Python Script/install/files/install_python.bat"/>
+					<Item Name="python-3.4.3-32bit.msi" Type="Document" URL="../Python Script/install/files/python-3.4.3-32bit.msi"/>
+				</Item>
+				<Item Name="checkPython.aliases" Type="Document" URL="../Python Script/install/checkPython.aliases"/>
+				<Item Name="checkPython.exe" Type="Document" URL="../Python Script/install/checkPython.exe"/>
+				<Item Name="checkPython.ini" Type="Document" URL="../Python Script/install/checkPython.ini"/>
 			</Item>
 			<Item Name="utility" Type="Folder">
 				<Item Name="__pycache__" Type="Folder">
@@ -68,7 +74,6 @@
 			<Item Name="Notification Controller.lvclass" Type="LVClass" URL="../SYS/Notification Controller_class/Notification Controller.lvclass"/>
 			<Item Name="PartsTracking Controller.lvclass" Type="LVClass" URL="../SYS/PartsTracking Controller_class/PartsTracking Controller.lvclass"/>
 		</Item>
-		<Item Name="checkPython.vi" Type="VI" URL="../Python Script/install/checkPython.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="test2.vi" Type="VI" URL="../test2.vi"/>
@@ -147,6 +152,48 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="checkPython" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{05086F79-4176-4F25-B29C-284D460E1607}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{31E3E988-F690-4A7A-BCF5-31A4333CD1B2}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_waitDebugging" Type="Bool">true</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{587ACBE7-7572-4F70-BF86-2D3B3DB5872A}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">checkPython</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Python Script/install</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{DB3E737C-58D5-4EB2-B6C1-31A414EF9B3C}</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">checkPython.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Python Script/install/checkPython.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Python Script/install/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D2F7EC3B-F96A-40C8-B1AF-C86A5F650922}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Python Script/install/files/checkPython.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Cosmed Asia Pacific</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Test if python is installed on the computer. In case it's not present it will call a batch file to install Python and win32com 32bit</Property>
+				<Property Name="TgtF_internalName" Type="Str">checkPython</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>
+				<Property Name="TgtF_productName" Type="Str">checkPython</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{797A5845-8701-4DFE-9C5E-BD018ED14263}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">checkPython.exe</Property>
+			</Item>
 			<Item Name="CosmedAPTools" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{476D9C74-8593-4B8C-8353-A4038D29CE8F}</Property>
@@ -161,8 +208,9 @@
 				<Property Name="Bld_localDestDir" Type="Path">../LabView builds</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref"></Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{77584390-5D3C-4E10-931E-77222B3CBD65}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">7</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CosmedAPTools.exe</Property>
@@ -179,7 +227,7 @@
 				<Property Name="Destination[4].destName" Type="Str">utility</Property>
 				<Property Name="Destination[4].path" Type="Path">../LabView builds/Python Script/utility</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{802A732F-CBBD-4E16-995D-C084981DE417}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D2F7EC3B-F96A-40C8-B1AF-C86A5F650922}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
@@ -204,7 +252,11 @@
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Python Script/utility</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">Cosmed AP</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">CosmedAPTools (TSR feature)
 - Cosmed INVOICE in PDF reading function added
@@ -213,7 +265,8 @@
 - Added right click feature in AddCheckIN e AddCheckOUT // upload from file pressing a button in the Item panel
 - The new product added will be positioned in the right place in base on the Serial Number
 - Save data using Range and 2D array (quicker)
-- Added TSR feature</Property>
+- Added TSR feature
+- Python check/installation added</Property>
 				<Property Name="TgtF_internalName" Type="Str">CosmedAPTools</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 Cosmed</Property>
 				<Property Name="TgtF_productName" Type="Str">CosmedAPTools</Property>
@@ -278,10 +331,11 @@
 				<Property Name="INST_buildSpecName" Type="Str">InstallCosmedAPTools</Property>
 				<Property Name="INST_defaultDir" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
 				<Property Name="INST_productName" Type="Str">CosmedAPTools</Property>
-				<Property Name="INST_productVersion" Type="Str">2.1.32</Property>
+				<Property Name="INST_productVersion" Type="Str">2.1.33</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15018007</Property>
-				<Property Name="MSI_arpCompany" Type="Str">Cosmed</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Cosmed Asia Pacific</Property>
+				<Property Name="MSI_arpContact" Type="Str">Emanuele Magliozzi</Property>
 				<Property Name="MSI_arpURL" Type="Str">http://www.cosmed.com/</Property>
 				<Property Name="MSI_distID" Type="Str">{B5E73361-8784-424B-B837-1F83EEA3FBBD}</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
@@ -314,7 +368,11 @@
 				<Property Name="Source[0].File[4].dest" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
 				<Property Name="Source[0].File[4].name" Type="Str">tsr_warranty.xlsx</Property>
 				<Property Name="Source[0].File[4].tag" Type="Ref">/My Computer/ConfigFiles/tsr_warranty.xlsx</Property>
-				<Property Name="Source[0].FileCount" Type="Int">5</Property>
+				<Property Name="Source[0].File[5].dest" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
+				<Property Name="Source[0].File[5].name" Type="Str">checkPython.exe</Property>
+				<Property Name="Source[0].File[5].runEXE" Type="Bool">true</Property>
+				<Property Name="Source[0].File[5].tag" Type="Ref">/My Computer/Python Script/install/checkPython.exe</Property>
+				<Property Name="Source[0].FileCount" Type="Int">6</Property>
 				<Property Name="Source[0].name" Type="Str">CosmedAPTools</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/CosmedAPTools</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
