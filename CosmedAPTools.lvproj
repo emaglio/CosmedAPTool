@@ -208,7 +208,6 @@
 				<Property Name="Bld_localDestDir" Type="Path">../LabView builds</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref"></Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{77584390-5D3C-4E10-931E-77222B3CBD65}</Property>
 				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">7</Property>
@@ -227,7 +226,7 @@
 				<Property Name="Destination[4].destName" Type="Str">utility</Property>
 				<Property Name="Destination[4].path" Type="Path">../LabView builds/Python Script/utility</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D2F7EC3B-F96A-40C8-B1AF-C86A5F650922}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1A0E0837-C480-457E-B5C6-8576AF66F83E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
@@ -252,11 +251,7 @@
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Python Script/utility</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref"></Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">Cosmed AP</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">CosmedAPTools (TSR feature)
 - Cosmed INVOICE in PDF reading function added
@@ -352,7 +347,7 @@
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str"></Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{721C0813-6C61-475B-A7A9-263EEBECD87C}</Property>
-				<Property Name="Source[0].File[1].attributes" Type="Int">513</Property>
+				<Property Name="Source[0].File[1].attributes" Type="Int">512</Property>
 				<Property Name="Source[0].File[1].dest" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
 				<Property Name="Source[0].File[1].name" Type="Str">config.ini</Property>
 				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/ConfigFiles/config.ini</Property>
