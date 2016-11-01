@@ -11,8 +11,8 @@ from utility import writeResults
 from utility import getINVInfo
 
 currentPath = os.getcwd()
-# pdfFilePath = str(currentPath)+'//COSMEDInvoiceINV16-01309.PDF'
-pdfFilePath = str(sys.argv[1])
+pdfFilePath = str(currentPath)+'//INV16-02673.PDF'
+# pdfFilePath = str(sys.argv[1])
 txtFilePath = str(currentPath) + '//utility.txt'
 resultFilePath = str(currentPath) + '//results.txt'
 
