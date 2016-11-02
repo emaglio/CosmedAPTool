@@ -6,4 +6,6 @@ set loc=%time%%random%
 title=%loc%
 for /f "tokens=2 delims= " %%A in ('tasklist /v ^| findstr /i "%loc%"') do (taskkill /PID %%A)
 
+set PYTHONPATH=C:\Python34\
+
 ECHO ON
