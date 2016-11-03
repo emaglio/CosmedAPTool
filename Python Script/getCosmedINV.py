@@ -10,11 +10,17 @@ import PyPDF2
 from utility import writeResults
 from utility import getINVInfo
 
+
 currentPath = os.getcwd()
-pdfFilePath = str(currentPath)+'//INV16-02673.PDF'
+pdfFilePath = str(currentPath)+'\\INV16-02673.PDF'
 # pdfFilePath = str(sys.argv[1])
-txtFilePath = str(currentPath) + '//utility.txt'
-resultFilePath = str(currentPath) + '//results.txt'
+# resultsFolder = str(sys.argv[2])
+resultsFolder = "C://Users//Public//Documents"
+# txtFilePath = str(currentPath) + '//utility.txt'
+# resultFilePath = str(currentPath) + '//results.txt'
+txtFilePath = str(resultsFolder) + '//utility.txt'
+resultFilePath = str(resultsFolder) + '//results.txt'
+
 
 def getCosmedINVdata(pdfFilePath):
     
