@@ -9,9 +9,9 @@ import os
 currentPath = os.getcwd()
 '''don't want the results file in the utility folder'''
 # currentPath = currentPath[0:len(currentPath)-8]
-txtFilePath = str(currentPath) + '\\utility.txt'
+# txtFilePath = str(currentPath) + '\\utility.txt'
 
-def getDate():
+def getDate(txtFilePath):
     date = ""
     txtFile = open(txtFilePath)
     pdfLine=[]
@@ -39,7 +39,7 @@ def getDate():
     
     return date
 
-def getInvNumber():
+def getInvNumber(txtFilePath):
     invNumber = ""
     txtFile = open(txtFilePath)
     pdfLine=[]

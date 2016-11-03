@@ -9,11 +9,10 @@ import os
 currentPath = os.getcwd()
 '''don't want the results file in the utility folder'''
 # currentPath = currentPath[0:len(currentPath)-8]
-resultFilePath = str(currentPath) + '//results.txt'
+# resultFilePath = str(currentPath) + '//results.txt'
 
-def populateTxt(date, numItems, invNumber, pnList, descrList, qtyList,snList):
+def populateTxt(date, numItems, invNumber, pnList, descrList, qtyList,snList, resultFilePath):
     '''write a txt file to get the data in LabView easily'''
-    test = len(snList)
     txtFile = open(resultFilePath, 'w')
     index=0
     indexSn=0
@@ -21,7 +20,7 @@ def populateTxt(date, numItems, invNumber, pnList, descrList, qtyList,snList):
     txtFile.write(date)
     txtFile.write(str(invNumber))
     for index in range(0,numItems):
-        if int(qtyList[index])>1 and snList[indexSn]!='none':
+        if int(qtyList[index])>1 and snList[indexSn]!='none' and snList[indexSn][-7:] != "onlyone":
             j=0
             for j in range(0,int(qtyList[index])):
                 if j==0:
@@ -34,6 +33,8 @@ def populateTxt(date, numItems, invNumber, pnList, descrList, qtyList,snList):
                 indexSn = indexSn +1
             index=index +1
         else:
+            if snList[indexSn][-7:] == "onlyone":
+                snList[indexSn] = snList[indexSn][0:(len(snList[indexSn])-7)]
             txtFile.write(pnList[index] +'//'+ snList[indexSn]+'//'+ descrList[index]+'//'+ qtyList[index]+'\n')
             numRows=numRows+1
             index=index+1
