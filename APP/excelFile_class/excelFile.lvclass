@@ -316,4 +316,31 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
+	<Item Name="createBackup.vi" Type="VI" URL="../createBackup.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;7!!!!#1!K1(!!(A!!%R&amp;F?'.F&lt;%:J&lt;'5O&lt;(:D&lt;'&amp;T=Q!-=G6G:8*F&lt;G.F)'FO!!!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!!A!$!!14:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!K1(!!(A!!%R&amp;F?'.F&lt;%:J&lt;'5O&lt;(:D&lt;'&amp;T=Q!.=G6G:8*F&lt;G.F)'^V&gt;!!71&amp;!!!Q!#!!-!"!FF=H*P=C"P&gt;81!G1$Q!"1!!!!"!!%!!1!"!!5!!1!"!!%!!1!"!!%!!1!"!!9!!1!"!!%!!1!(!Q!"%!!!%A!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!.!!!!!!!!!!!!!!!!!!!!!!!!!!U&amp;!"5!!!!!!!!!!!!!!!!!!!%!!!!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+	</Item>
+	<Item Name="checkFolder.vi" Type="VI" URL="../checkFolder.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;K!!!!#A!K1(!!(A!!%R&amp;F?'.F&lt;%:J&lt;'5O&lt;(:D&lt;'&amp;T=Q!-=G6G:8*F&lt;G.F)'FO!!!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!!A!$!!14:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!K1(!!(A!!%R&amp;F?'.F&lt;%:J&lt;'5O&lt;(:D&lt;'&amp;T=Q!.=G6G:8*F&lt;G.F)'^V&gt;!!51$,`````#W*B9WNV=&amp;^Q982I!":!5!!$!!)!!Q!%#76S=G^S)'^V&gt;!#:!0!!&amp;!!!!!%!!1!"!!%!"1!"!!%!!1!"!!%!!1!"!!%!"A!"!!=!!1!"!!A$!!%1!!!+!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!5!!!!!!!!!#1!!!!!!!!!!!!!!$15!&amp;1!!!!!!!!!!!!!!!!!!!1!!!!!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
+	<Item Name="checkBackupFiles.vi" Type="VI" URL="../checkBackupFiles.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;K!!!!#A!K1(!!(A!!%R&amp;F?'.F&lt;%:J&lt;'5O&lt;(:D&lt;'&amp;T=Q!-=G6G:8*F&lt;G.F)'FO!!!%!!!!&amp;%!S`````QNC97.L&gt;8"@='&amp;U;!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!$!!1!"2.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#J!=!!?!!!4%76Y9W6M2GFM:3ZM&gt;G.M98.T!!VS:7:F=G6O9W5A&lt;X6U!":!5!!$!!-!"!!&amp;#76S=G^S)'^V&gt;!#:!0!!&amp;!!!!!%!!A!"!!%!"A!"!!%!!1!"!!%!!1!"!!%!"Q!"!!)!!1!"!!A$!!%1!!!3!!!!!!!!!!I!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!U!!!!!!!!!#1!!!!!!!!!!!!!!$15!&amp;1!!!!!!!!!!!!!!!!!!!1!!!!!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
 </LVClass>
