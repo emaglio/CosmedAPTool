@@ -199,6 +199,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{476D9C74-8593-4B8C-8353-A4038D29CE8F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{A4B5B6CB-2621-41CB-AFD4-F24FAEF896EC}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3AD4E0D0-B2EE-49D8-B807-3B0B001D0D5A}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">CosmedAPTools</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -208,6 +209,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{77584390-5D3C-4E10-931E-77222B3CBD65}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">7</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">CosmedAPTools.exe</Property>
@@ -224,7 +226,7 @@
 				<Property Name="Destination[4].destName" Type="Str">utility</Property>
 				<Property Name="Destination[4].path" Type="Path">../LabView builds/Python Script/utility</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4CA754AA-D20B-49EC-8042-EEDA3F33EF08}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{336AE480-93AD-4E50-9888-38B487DCB4BD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
@@ -249,7 +251,11 @@
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Python Script/utility</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/GUI/Project Panels.lvclass/addCheckOUT.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">Cosmed AP</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">CosmedAPTools (TSR feature)
 - Cosmed INVOICE in PDF reading function added
@@ -325,7 +331,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">InstallCosmedAPTools</Property>
 				<Property Name="INST_defaultDir" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
 				<Property Name="INST_productName" Type="Str">CosmedAPTools</Property>
-				<Property Name="INST_productVersion" Type="Str">2.1.38</Property>
+				<Property Name="INST_productVersion" Type="Str">2.1.40</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15018007</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cosmed Asia Pacific</Property>
@@ -346,27 +352,31 @@
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str"></Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{721C0813-6C61-475B-A7A9-263EEBECD87C}</Property>
-				<Property Name="Source[0].File[1].attributes" Type="Int">512</Property>
+				<Property Name="Source[0].File[1].attributes" Type="Int">2</Property>
 				<Property Name="Source[0].File[1].dest" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
-				<Property Name="Source[0].File[1].name" Type="Str">config.ini</Property>
-				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/ConfigFiles/config.ini</Property>
-				<Property Name="Source[0].File[2].attributes" Type="Int">3</Property>
+				<Property Name="Source[0].File[1].name" Type="Str">addCheckOUT.vi</Property>
+				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/GUI/Project Panels.lvclass/addCheckOUT.vi</Property>
+				<Property Name="Source[0].File[2].attributes" Type="Int">512</Property>
 				<Property Name="Source[0].File[2].dest" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
-				<Property Name="Source[0].File[2].name" Type="Str">tsr_agreement.xlsx</Property>
-				<Property Name="Source[0].File[2].tag" Type="Ref">/My Computer/ConfigFiles/tsr_agreement.xlsx</Property>
+				<Property Name="Source[0].File[2].name" Type="Str">config.ini</Property>
+				<Property Name="Source[0].File[2].tag" Type="Ref">/My Computer/ConfigFiles/config.ini</Property>
 				<Property Name="Source[0].File[3].attributes" Type="Int">3</Property>
 				<Property Name="Source[0].File[3].dest" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
-				<Property Name="Source[0].File[3].name" Type="Str">tsr_repair.xlsx</Property>
-				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/ConfigFiles/tsr_repair.xlsx</Property>
+				<Property Name="Source[0].File[3].name" Type="Str">tsr_agreement.xlsx</Property>
+				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/ConfigFiles/tsr_agreement.xlsx</Property>
 				<Property Name="Source[0].File[4].attributes" Type="Int">3</Property>
 				<Property Name="Source[0].File[4].dest" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
-				<Property Name="Source[0].File[4].name" Type="Str">tsr_warranty.xlsx</Property>
-				<Property Name="Source[0].File[4].tag" Type="Ref">/My Computer/ConfigFiles/tsr_warranty.xlsx</Property>
+				<Property Name="Source[0].File[4].name" Type="Str">tsr_repair.xlsx</Property>
+				<Property Name="Source[0].File[4].tag" Type="Ref">/My Computer/ConfigFiles/tsr_repair.xlsx</Property>
+				<Property Name="Source[0].File[5].attributes" Type="Int">3</Property>
 				<Property Name="Source[0].File[5].dest" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
-				<Property Name="Source[0].File[5].name" Type="Str">checkPython.exe</Property>
-				<Property Name="Source[0].File[5].runEXE" Type="Bool">true</Property>
-				<Property Name="Source[0].File[5].tag" Type="Ref">/My Computer/Python Script/install/checkPython.exe</Property>
-				<Property Name="Source[0].FileCount" Type="Int">6</Property>
+				<Property Name="Source[0].File[5].name" Type="Str">tsr_warranty.xlsx</Property>
+				<Property Name="Source[0].File[5].tag" Type="Ref">/My Computer/ConfigFiles/tsr_warranty.xlsx</Property>
+				<Property Name="Source[0].File[6].dest" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
+				<Property Name="Source[0].File[6].name" Type="Str">checkPython.exe</Property>
+				<Property Name="Source[0].File[6].runEXE" Type="Bool">true</Property>
+				<Property Name="Source[0].File[6].tag" Type="Ref">/My Computer/Python Script/install/checkPython.exe</Property>
+				<Property Name="Source[0].FileCount" Type="Int">7</Property>
 				<Property Name="Source[0].name" Type="Str">CosmedAPTools</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/CosmedAPTools</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
