@@ -16,11 +16,11 @@ resultsFolder = str(sys.argv[2])
 
 '''Python debug'''
 # currentPath = os.getcwd()
-# pdfFilePath = str(currentPath)+'\\INV16-02673.PDF'
+# pdfFilePath = str(currentPath)+'\\COSMEDInvoiceINV16-03637.PDF'
 # resultsFolder = "C://Users//Public//Documents"
 # txtFilePath = str(resultsFolder) + '//utility.txt'
 # resultFilePath = str(resultsFolder) + '//results.txt'
-
+'''Always used'''
 txtFilePath = str(resultsFolder) + '//utility.txt'
 resultFilePath = str(resultsFolder) + '//results.txt'
 
@@ -93,8 +93,24 @@ def getCosmedINVdata(pdfFilePath):
                 pnList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
                 numItems=numItems+1
                 index=index+1
-                descrList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
-                index=index+1
+                '''if there is K4b2 in the description of the PDF
+                3 lines are created: everything until the square, one line for the square "2"
+                one line for the rest of the description.
+                Too complicated to predict all possible cases.
+                Looking for the next line that is a number which should be the quantity''' 
+                if pdfLine[index][0:(len(pdfLine[index])-1)][-3:] == "K4b":
+                    descrList.append(pdfLine[index][0:(len(pdfLine[index])-1)] + "2")
+                    index = index + 1
+                    while True:
+                        try: 
+                            int(pdfLine[index][0:(len(pdfLine[index])-1)])
+                        except ValueError:
+                            index = index + 1
+                            continue
+                        else:break 
+                else:
+                    descrList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
+                    index=index+1
                 qty = int(pdfLine[index][0:(len(pdfLine[index])-1)])
                 qtyList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
                 index=index+1
