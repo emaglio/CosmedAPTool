@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+Excel creates lots of problems when a fille is opened in Protected View. This error prevent that a real error occured and stop the application to access Excel
+
+
+<nifamily familyname="Error with read/write excel files" displayname="Error with read/write excel files">
+</nifamily>
+</nicomment>
+<nierror code="5000">
+One of the Utility file is opend in Protected View. Please either close the file or make the file editable (click Enable Editing)
+</nierror>
+</nidocument>
