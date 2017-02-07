@@ -8,6 +8,6 @@ Excel creates lots of problems when a fille is opened in Protected View. This er
 </nifamily>
 </nicomment>
 <nierror code="5000">
-One of the Utility file is opend in Protected View. Please either close the file or make the file editable (click Enable Editing)
+One of the Utility files is opend in Protected View. Please either close the file or make the file editable (click Enable Editing) and restart the CosmedAPTools
 </nierror>
 </nidocument>
