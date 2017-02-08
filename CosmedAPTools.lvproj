@@ -168,7 +168,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DB3E737C-58D5-4EB2-B6C1-31A414EF9B3C}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">checkPython.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Python Script/install/checkPython.exe</Property>
@@ -209,9 +209,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{77584390-5D3C-4E10-931E-77222B3CBD65}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
-				<Property Name="Bld_version.major" Type="Int">7</Property>
-				<Property Name="Bld_version.minor" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">8</Property>
 				<Property Name="Destination[0].destName" Type="Str">CosmedAPTools.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../LabView builds/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -226,7 +225,7 @@
 				<Property Name="Destination[4].destName" Type="Str">utility</Property>
 				<Property Name="Destination[4].path" Type="Path">../LabView builds/Python Script/utility</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{336AE480-93AD-4E50-9888-38B487DCB4BD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6B70D98B-68B8-4A5C-9A47-BC98844E8A24}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
@@ -266,7 +265,8 @@
 - Save data using Range and 2D array (quicker)
 - Added TSR feature
 - Python check/installation added
-- Backup creating</Property>
+- Backup creating
+- Using excel while running the application</Property>
 				<Property Name="TgtF_internalName" Type="Str">CosmedAPTools</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 Cosmed</Property>
 				<Property Name="TgtF_productName" Type="Str">CosmedAPTools</Property>
@@ -331,7 +331,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">InstallCosmedAPTools</Property>
 				<Property Name="INST_defaultDir" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
 				<Property Name="INST_productName" Type="Str">CosmedAPTools</Property>
-				<Property Name="INST_productVersion" Type="Str">2.1.41</Property>
+				<Property Name="INST_productVersion" Type="Str">2.1.44</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15018007</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cosmed Asia Pacific</Property>
