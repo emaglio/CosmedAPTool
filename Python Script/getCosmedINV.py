@@ -15,12 +15,12 @@ pdfFilePath = str(sys.argv[1])
 resultsFolder = str(sys.argv[2])
 
 '''Python debug'''
-# currentPath = os.getcwd()
-# pdfFilePath = str(currentPath)+'\\COSMEDInvoiceINV16-03637.PDF'
-# resultsFolder = "C://Users//Public//Documents"
-# txtFilePath = str(resultsFolder) + '//utility.txt'
-# resultFilePath = str(resultsFolder) + '//results.txt'
+# file_to_test_folder = "D://CosmedAPTool//Test//python_files//to_test"
+# resultsFolder = "D://CosmedAPTool//Test//python_files//results"
+# files_to_test = os.listdir(file_to_test_folder)
+# pdfFilePath = str(file_to_test_folder)+'\\COSMEDInvoiceINV16-03637.PDF'
 '''Always used'''
+
 txtFilePath = str(resultsFolder) + '//utility.txt'
 resultFilePath = str(resultsFolder) + '//results.txt'
 
@@ -200,5 +200,4 @@ def cleanUpSN(snList):
     return snList
 
 getCosmedINVdata(pdfFilePath)
-
     
