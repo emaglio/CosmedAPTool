@@ -17,10 +17,9 @@ resultsFolder = str(sys.argv[2])
 '''Python debug'''
 # file_to_test_folder = "D://CosmedAPTool//Test//python_files//to_test"
 # resultsFolder = "D://CosmedAPTool//Test//python_files//results"
-# files_to_test = os.listdir(file_to_test_folder)
-# pdfFilePath = str(file_to_test_folder)+'\\COSMEDInvoiceINV16-03637.PDF'
-'''Always used'''
+# pdfFilePath = str(file_to_test_folder)+'\\INV16-02673.PDF'
 
+'''Always used'''
 txtFilePath = str(resultsFolder) + '//utility.txt'
 resultFilePath = str(resultsFolder) + '//results.txt'
 
@@ -135,7 +134,9 @@ def getCosmedINVdata(pdfFilePath):
                             snList.append('maybe-none')
                 else:
                     sn=[]
-                    while(index < indexList[i+1] ): 
+                    while(index < indexList[i+1]): 
+                        test = ""
+                        test = pdfLine[index]
                         if 'Serial' in pdfLine[index] or 's/n' in pdfLine[index] or 'SN' in pdfLine[index]:
                             j=0
                             for j in range(0,qty):
@@ -183,20 +184,36 @@ def getCosmedINVdata(pdfFilePath):
 def cleanUpSN(snList):
     i=0
     for i in range(0,len(snList)):
-        if(not "none" in snList[i]):
-            sn = snList[i]
-            j=0
-            for j in range(0,len(sn)):
-                if (not sn[j].isdigit()):
-                    offset = j
-                else:
-                    if (offset != 0):
-                        break
-                j=j+1
+        if("k4B2 s/n:" in snList[i] or "For Quark" in snList[i]):
+            '''happens for CO2 and O2 sensors'''
+            '''delete flag added'''
+            snList[i] = "delete"
+        if(not "none" in snList[i] and not "delete" in snList[i]):
+            if("SN/Lot#" in snList[i]):
+                offset = 8
+            else:
+                sn = snList[i]
+                j=0
+                for j in range(0,len(sn)):
+                    if (not sn[j].isdigit()):
+                        offset = j
+                    else:
+                        if (offset != 0):
+                            break
+                    j=j+1
             snList[i]=snList[i][offset+1:len(snList[i])]
     for i in range(0,len(snList)):
         if len(snList[i])>20 or len(snList[i])<2:
             snList[i]="none"
+    
+    '''delete the items with the delete flag'''
+    while True:
+        try:
+            if(snList.index("delete")):
+                snList.pop(snList.index("delete"))
+        except ValueError:
+            break
+        
     return snList
 
 getCosmedINVdata(pdfFilePath)
