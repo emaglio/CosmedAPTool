@@ -22,7 +22,7 @@ def printThis(pathFile, pathPDF):
         
     
     o = win32com.client.Dispatch("Excel.Application")
-    o.Visible = False
+    o.Visible = 0
     
     wb = o.Workbooks.Open(pathFile)
     wb.ActiveSheet.ExportAsFixedFormat(0,pathPDF)
@@ -33,7 +33,7 @@ def printThis(pathFile, pathPDF):
         o.Quit()
         return print("closed")
     except:
-        o.Visible = True
+        o.Visible = 1
         return print("notClosed")
     
 printThis(pathFile, pathPDF)
