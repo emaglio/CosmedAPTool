@@ -17,7 +17,7 @@ resultsFolder = str(sys.argv[2])
 '''Python debug'''
 # file_to_test_folder = "D://CosmedAPTool//Test//python_files//to_test"
 # resultsFolder = "D://CosmedAPTool//Test//python_files//results"
-# pdfFilePath = str(file_to_test_folder)+'\\INV16-02673.PDF'
+# pdfFilePath = str(file_to_test_folder)+'\\COSMEDInvoiceINV17-01108.PDF'
 
 '''Always used'''
 txtFilePath = str(resultsFolder) + '//utility.txt'
@@ -135,8 +135,6 @@ def getCosmedINVdata(pdfFilePath):
                 else:
                     sn=[]
                     while(index < indexList[i+1]): 
-                        test = ""
-                        test = pdfLine[index]
                         if 'Serial' in pdfLine[index] or 's/n' in pdfLine[index] or 'SN' in pdfLine[index]:
                             j=0
                             for j in range(0,qty):
