@@ -470,4 +470,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
+	<Item Name="cleanDeviceType.vi" Type="VI" URL="../cleanDeviceType.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'%!!!!#Q!K1(!!(A!!%R&amp;F?'.F&lt;%:J&lt;'5O&lt;(:D&lt;'&amp;T=Q!-=G6G:8*F&lt;G.F)'FO!!!%!!!!&amp;%!Q`````QNE:8:J9W6@&gt;(FQ:1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!$!!1!"2.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#J!=!!?!!!4%76Y9W6M2GFM:3ZM&gt;G.M98.T!!VS:7:F=G6O9W5A&lt;X6U!"J!-0````]2:'6W;7.F6(FQ:5.M:7&amp;O:71!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!*E!]!!5!!!!!1!#!!%!!1!'!!%!!1!"!!%!!1!"!!%!!1!(!!%!#!!"!!%!#1-!!2!!!")!!!!!!!!"#A!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$1!!!!!!!!!*!!!!!!!!!!!!!!!."1!6!!!!!!!!!!!!!!!!!!!"!!!!!!!!!!%!#A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
 </LVClass>

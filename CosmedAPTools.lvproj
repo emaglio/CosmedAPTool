@@ -360,7 +360,7 @@
 				<Property Name="Source[0].File[1].dest" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
 				<Property Name="Source[0].File[1].name" Type="Str">addCheckOUT.vi</Property>
 				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/GUI/Project Panels.lvclass/addCheckOUT.vi</Property>
-				<Property Name="Source[0].File[2].attributes" Type="Int">512</Property>
+				<Property Name="Source[0].File[2].attributes" Type="Int">2</Property>
 				<Property Name="Source[0].File[2].dest" Type="Str">{12162222-D71B-499B-A90F-75F463DF6B50}</Property>
 				<Property Name="Source[0].File[2].name" Type="Str">config.ini</Property>
 				<Property Name="Source[0].File[2].tag" Type="Ref">/My Computer/ConfigFiles/config.ini</Property>
