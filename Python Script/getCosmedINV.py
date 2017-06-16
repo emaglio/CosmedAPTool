@@ -17,7 +17,7 @@ resultsFolder = str(sys.argv[2])
 '''Python debug'''
 # file_to_test_folder = "D://CosmedAPTool//Test//python_files//to_test"
 # resultsFolder = "D://CosmedAPTool//Test//python_files//results"
-# pdfFilePath = str(file_to_test_folder)+'\\COSMEDInvoiceINV17-01108.PDF'
+# pdfFilePath = str(file_to_test_folder)+'//COSMEDInvoiceINV17-01713.pdf'
 
 '''Always used'''
 txtFilePath = str(resultsFolder) + '//utility.txt'
@@ -97,19 +97,18 @@ def getCosmedINVdata(pdfFilePath):
                 one line for the rest of the description.
                 Too complicated to predict all possible cases.
                 Looking for the next line that is a number which should be the quantity''' 
-                if pdfLine[index][0:(len(pdfLine[index])-1)][-3:] == "K4b":
-                    descrList.append(pdfLine[index][0:(len(pdfLine[index])-1)] + "2")
-                    index = index + 1
-                    while True:
-                        try: 
-                            int(pdfLine[index][0:(len(pdfLine[index])-1)])
-                        except ValueError:
-                            index = index + 1
-                            continue
-                        else:break 
-                else:
-                    descrList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
-                    index=index+1
+                descrList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
+                index = index + 1
+                while True:
+                    try: 
+                        int(pdfLine[index][0:(len(pdfLine[index])-1)])
+                    except ValueError:
+                        index = index + 1
+                        continue
+                    else:break 
+#                 else:
+#                     descrList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
+#                     index=index+1
                 qty = int(pdfLine[index][0:(len(pdfLine[index])-1)])
                 qtyList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
                 index=index+1
@@ -182,7 +181,7 @@ def getCosmedINVdata(pdfFilePath):
 def cleanUpSN(snList):
     i=0
     for i in range(0,len(snList)):
-        if("k4B2 s/n:" in snList[i] or "For Quark" in snList[i]):
+        if("k4b2 s/n" in snList[i].lower() or "for quark" in snList[i].lower()):
             '''happens for CO2 and O2 sensors'''
             '''delete flag added'''
             snList[i] = "delete"
