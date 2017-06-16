@@ -15,11 +15,10 @@ pdfFilePath = str(sys.argv[1])
 resultsFolder = str(sys.argv[2])
 
 '''Python debug'''
-# currentPath = os.getcwd()
-# pdfFilePath = str(currentPath)+'\\COSMEDInvoiceINV16-03637.PDF'
-# resultsFolder = "C://Users//Public//Documents"
-# txtFilePath = str(resultsFolder) + '//utility.txt'
-# resultFilePath = str(resultsFolder) + '//results.txt'
+# file_to_test_folder = "D://CosmedAPTool//Test//python_files//to_test"
+# resultsFolder = "D://CosmedAPTool//Test//python_files//results"
+# pdfFilePath = str(file_to_test_folder)+'//COSMEDInvoiceINV17-01713.pdf'
+
 '''Always used'''
 txtFilePath = str(resultsFolder) + '//utility.txt'
 resultFilePath = str(resultsFolder) + '//results.txt'
@@ -98,19 +97,18 @@ def getCosmedINVdata(pdfFilePath):
                 one line for the rest of the description.
                 Too complicated to predict all possible cases.
                 Looking for the next line that is a number which should be the quantity''' 
-                if pdfLine[index][0:(len(pdfLine[index])-1)][-3:] == "K4b":
-                    descrList.append(pdfLine[index][0:(len(pdfLine[index])-1)] + "2")
-                    index = index + 1
-                    while True:
-                        try: 
-                            int(pdfLine[index][0:(len(pdfLine[index])-1)])
-                        except ValueError:
-                            index = index + 1
-                            continue
-                        else:break 
-                else:
-                    descrList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
-                    index=index+1
+                descrList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
+                index = index + 1
+                while True:
+                    try: 
+                        int(pdfLine[index][0:(len(pdfLine[index])-1)])
+                    except ValueError:
+                        index = index + 1
+                        continue
+                    else:break 
+#                 else:
+#                     descrList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
+#                     index=index+1
                 qty = int(pdfLine[index][0:(len(pdfLine[index])-1)])
                 qtyList.append(pdfLine[index][0:(len(pdfLine[index])-1)])
                 index=index+1
@@ -135,7 +133,7 @@ def getCosmedINVdata(pdfFilePath):
                             snList.append('maybe-none')
                 else:
                     sn=[]
-                    while(index < indexList[i+1] ): 
+                    while(index < indexList[i+1]): 
                         if 'Serial' in pdfLine[index] or 's/n' in pdfLine[index] or 'SN' in pdfLine[index]:
                             j=0
                             for j in range(0,qty):
@@ -183,22 +181,37 @@ def getCosmedINVdata(pdfFilePath):
 def cleanUpSN(snList):
     i=0
     for i in range(0,len(snList)):
-        if(not "none" in snList[i]):
-            sn = snList[i]
-            j=0
-            for j in range(0,len(sn)):
-                if (not sn[j].isdigit()):
-                    offset = j
-                else:
-                    if (offset != 0):
-                        break
-                j=j+1
+        if("k4b2 s/n" in snList[i].lower() or "for quark" in snList[i].lower()):
+            '''happens for CO2 and O2 sensors'''
+            '''delete flag added'''
+            snList[i] = "delete"
+        if(not "none" in snList[i] and not "delete" in snList[i]):
+            if("SN/Lot#" in snList[i]):
+                offset = 8
+            else:
+                sn = snList[i]
+                j=0
+                for j in range(0,len(sn)):
+                    if (not sn[j].isdigit()):
+                        offset = j
+                    else:
+                        if (offset != 0):
+                            break
+                    j=j+1
             snList[i]=snList[i][offset+1:len(snList[i])]
     for i in range(0,len(snList)):
         if len(snList[i])>20 or len(snList[i])<2:
             snList[i]="none"
+    
+    '''delete the items with the delete flag'''
+    while True:
+        try:
+            if(snList.index("delete")):
+                snList.pop(snList.index("delete"))
+        except ValueError:
+            break
+        
     return snList
 
 getCosmedINVdata(pdfFilePath)
-
     

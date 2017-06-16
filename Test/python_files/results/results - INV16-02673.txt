@@ -1,0 +1,79 @@
+78
+09/09/2016
+INV16-02673
+C09062-01-99//2016072443//Pony FX (Desktop Spirometer)//20
+C09062-01-99//2016072444//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072445//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072446//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072447//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072448//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072449//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072450//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072451//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072452//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072453//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072454//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072455//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072456//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072457//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072458//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072459//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072460//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072470//Pony FX (Desktop Spirometer)// 
+C09062-01-99//2016072471//Pony FX (Desktop Spirometer)// 
+C09061-01-99//2016051520//MicroQuark USB (PC-based Spirometer)//30
+C09061-01-99//2016051521//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051522//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051523//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051524//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051525//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051526//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051527//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051494//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051496//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051498//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051499//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051500//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051501//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016051502//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016081543//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016081544//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016081545//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016081555//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016081556//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016081557//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016081559//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016081560//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016081563//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016081564//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016081565//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016081566//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016081567//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016081568//MicroQuark USB (PC-based Spirometer)// 
+C09061-01-99//2016081569//MicroQuark USB (PC-based Spirometer)// 
+C03550-01-04//2016060478//Cart Medical grade (230 Vac) w/o Arm - 1 cylinder holder//3
+C03550-01-04//2016080481//Cart Medical grade (230 Vac) w/o Arm - 1 cylinder holder// 
+C03550-01-04//2016060479//Cart Medical grade (230 Vac) w/o Arm - 1 cylinder holder// 
+C02900-01-04//2016070754//Cart Medical grade (230 Vac) w/o Arm - 3 cylinders holder//4
+C02900-01-04//2016070753//Cart Medical grade (230 Vac) w/o Arm - 3 cylinders holder// 
+C02900-01-04//2016060744//Cart Medical grade (230 Vac) w/o Arm - 3 cylinders holder// 
+C02900-01-04//2016060746//Cart Medical grade (230 Vac) w/o Arm - 3 cylinders holder// 
+A-661-230-023//2016A035//BOD POD Gold Standard//1
+A-666-500-024//2016005152//COSMED cycle ergometer 100 P//3
+A-666-500-024//2016005151//COSMED cycle ergometer 100 P// 
+A-666-500-024//2016005153//COSMED cycle ergometer 100 P// 
+C09073-02-99//2016081032//Quark CPET (Stationary CPET)//3
+C09073-02-99//2016081033//Quark CPET (Stationary CPET)// 
+C09073-02-99//2016081034//Quark CPET (Stationary CPET)// 
+A-870-150-005//none//Regulator, CAL Gas for dispos. ED cyl.-CGA-973//5
+A-870-150-012//none//Regulator K5, Met Mix (outlet type CGA-973)//3
+C02970-01-08//none//Monitor holder for 3-cylinder cart//4
+A-182-300-004//16/00986//Antibacterial filters (50 pcs)//60
+C00568-01-98//201603//Rubber mouthpieces (200 pcs.) (diam. 25 mm)//10
+C02580-01-06//0703312144//Flowsafe disposable pneumotach (50 pcs.)//5
+C09074-01-99//2016061086//Quark RMR, Indirect calorimetry//2
+C09074-01-99//2016061087//Quark RMR, Indirect calorimetry// 
+C00600-01-11//557-49608//Calibration syringe 3 liters//4
+C00600-01-11//557-49609//Calibration syringe 3 liters// 
+C00600-01-11//557-49610//Calibration syringe 3 liters// 
+C00600-01-11//557-49611//Calibration syringe 3 liters// 
