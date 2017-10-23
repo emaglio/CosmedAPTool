@@ -17,7 +17,7 @@ resultsFolder = str(sys.argv[2])
 '''Python debug'''
 # file_to_test_folder = "D://CosmedAPTool//Test//python_files//to_test"
 # resultsFolder = "D://CosmedAPTool//Test//python_files//results"
-# pdfFilePath = str(file_to_test_folder)+'//COSMEDInvoiceINV17-01713.pdf'
+# pdfFilePath = str(file_to_test_folder)+'//COSMEDInvoiceINV17-02809.pdf'
 
 '''Always used'''
 txtFilePath = str(resultsFolder) + '//utility.txt'

@@ -55,11 +55,11 @@ def getInvNumber(txtFilePath):
         i=i+1
     
     '''new PDF format the invoice number
-    is after "anz@cosmed.com"'''
+    is after "99999999999"'''
     if found == False:
         i=0
         for i in range(0,len(pdfLine)):
-            if 'anz@cosmed.com' in pdfLine[i]:
+            if '99999999999' in pdfLine[i]:
                 invNumber=pdfLine[i+1][2:len(pdfLine[i+1])]
                 found = True
             i=i+1
